@@ -1,0 +1,83 @@
+.musicbox {
+  width: 340px;
+  height: 150px;
+  margin-top: 138px;
+  margin-left: 350px;
+  font-family: cursive,microsoft Yahei;
+  font-size: 16px;
+  color: #f06d6a;
+  border: 1px solid #76dba3;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1),0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-font-smoothing: antialiased;
+}
+.musicbox .info {
+  /* margin-left: 120px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 330px;
+  text-align: center;
+}
+
+.musicbox .info .title {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.musicbox .info .auther {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* 哥的控制 */
+.musicbox .control {
+  margin-top: 30px;
+  margin-left: 125px;
+  font-size: 22px;
+  color: #ee8a87;
+}
+.musicbox .control .fa {
+  margin-right: 12px;
+  cursor: pointer;
+}
+.musicbox .control .fa.disable {
+  opacity: 0.3;
+}
+
+/* 进度条 */
+.musicbox .progress {
+  width: 300px;
+  margin-left: 10px;
+}
+.musicbox .progress .bar {
+  height: 3px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.musicbox .progress .progress-now {
+  background-color: #ee8a87;
+  height: 3px;
+  width: 0;
+  position: relative;
+}
+.musicbox .time {
+  text-align: right;
+}
+.musicbox:after,
+.lyric,
+.musicbox .music:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.lyrics {
+  width: 800px;
+  height: 300px;
+  margin-left: 300px;
+}
+.lyrics1 {
+  float: left;
+}
+.lyrics2 {
+  float: left;
+  margin-left: 10px;
+}
