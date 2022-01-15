@@ -9,14 +9,14 @@ var musicList = [{
     auther: 'Big Bang'
   },
   {
-    src: 'https://sharefs.ali.kugou.com/202201141342/88926905d9b56f6b9a037705d83059bd/KGTX/CLTX001/9c29ccf742c1a8f8a8171dd3305b428b.mp3',
+    src: 'https://sharefs.ali.kugou.com/202201151732/6ab36398ba061fa0a8c7784640b3677d/KGTX/CLTX001/9c29ccf742c1a8f8a8171dd3305b428b.mp3',
     title: '后来',
     auther: '刘诺英'
   },
   {
-    src: 'https://sharefs.ali.kugou.com/202201141412/f42ec42a688d458af58fb3bd137602c7/KGTX/CLTX001/967235335565cbaba507c50bf9e06033.mp3',
-    title: '这是我一生中最勇敢的瞬间',
-    auther: '棱镜'
+    src: 'https://sharefs.ali.kugou.com/202201151736/502646b6f9af518fb17fa26947dd5ec6/G205/M04/06/08/rZQEAF5jZ-2AdHivABX1ZV_4Y0E465.mp3',
+    title: '咖啡因乐队',
+    auther: '成长的路口'
   }
 ]
 
